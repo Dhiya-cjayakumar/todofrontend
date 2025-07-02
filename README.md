@@ -40,6 +40,7 @@ A full-stack **To-Do List** web application built using the **MERN stack** (Mong
    cd your-repo-name
    
 **Install frontend & backend dependencies**
+```bash
   cd frontend
   npm install
 
@@ -75,7 +76,7 @@ Frontend: React, React Router DOM
 
 Backend: Express, Mongoose, bcryptjs, JWT, dotenv, CORS
 
-
+---
 **Authentication Flow**
 
 
@@ -87,7 +88,7 @@ JWT tokens are generated on login and stored in localStorage
 
 Protected routes are guarded using Authorization: Bearer <token>
 
-
+---
 **Author**
 
 
@@ -99,7 +100,7 @@ GitHub - https://github.com/Dhiya-cjayakumar
 
 LinkedIn - www.linkedin.com/in/dhiya-cjayakumar
 
-
+---
 **License**
 
 
