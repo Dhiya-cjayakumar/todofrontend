@@ -58,31 +58,51 @@ cd frontend
 npm start
 
 Folder Structure
-
+```bash
 ├── frontend/           # React app
 │   └── App.js, components, pages...
 ├── backend/            # Express API
 │   └── server.js, models, routes...
 └── README.md
+```
+
 
 **Dependencies**
+
+
 Frontend: React, React Router DOM
+
 
 Backend: Express, Mongoose, bcryptjs, JWT, dotenv, CORS
 
+
 **Authentication Flow**
+
+
 Passwords are hashed using bcryptjs
+
 
 JWT tokens are generated on login and stored in localStorage
 
+
 Protected routes are guarded using Authorization: Bearer <token>
 
+
 **Author**
+
+
 Dhiya C Jayakumar
+
+
 GitHub - https://github.com/Dhiya-cjayakumar
+
+
 LinkedIn - www.linkedin.com/in/dhiya-cjayakumar
 
+
 **License**
+
+
 This project is licensed under the MIT License.
 
 
