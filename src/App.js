@@ -56,9 +56,9 @@ function App() {
   };
 
   const updateTaskStatus = async (id, currentStatus) => {
-    const newStatus = currentStatus === "pending" ? "completed" : "pending";
+    const newStatus = currentStatus.toLowerCase() === "pending" ? "completed" : "pending";
     const response = await fetch(
-      `https://todolist-zzty.onrender.com/tasks/${id}/status`,
+      `https://todolist-zzty.onrender.com/tasks/${id}`,
       {
         method: "PATCH",
         headers: {
